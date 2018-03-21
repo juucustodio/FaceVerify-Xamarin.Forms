@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7BC5A6E1-C8A8-4BDF-B573-48E0F941C619}</ProjectGuid>
+    <ProjectGuid>{23FA81D4-E322-4B80-B9A9-A9553DE8FC84}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>DemoFaceIdentify.Droid</RootNamespace>
-    <AssemblyName>DemoFaceIdentify.Android</AssemblyName>
+    <RootNamespace>DemoFaceVerify.Droid</RootNamespace>
+    <AssemblyName>DemoFaceVerify.Android</AssemblyName>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -47,6 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Plugin.Media">
       <Version>3.1.3</Version>
     </PackageReference>
@@ -73,7 +76,9 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
@@ -83,9 +88,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoFaceIdentify\DemoFaceIdentify.csproj">
-      <Project>{6AC11F39-CD44-447A-AED0-031FB43E249A}</Project>
-      <Name>DemoFaceIdentify</Name>
+    <ProjectReference Include="..\DemoFaceVerify\DemoFaceVerify.csproj">
+      <Project>{8696EC2B-22E8-48CB-9E70-71025BCE73B0}</Project>
+      <Name>DemoFaceVerify</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

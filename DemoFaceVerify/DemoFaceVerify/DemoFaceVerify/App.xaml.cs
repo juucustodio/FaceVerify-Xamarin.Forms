@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace DemoFaceIdentify
+namespace DemoFaceVerify
 {
 	public partial class App : Application
 	{
@@ -13,7 +13,7 @@ namespace DemoFaceIdentify
 		{
 			InitializeComponent();
 
-			MainPage = new DemoFaceIdentify.MainPage();
+			MainPage = new DemoFaceVerify.MainPage();
 		}
 
 		protected override void OnStart ()

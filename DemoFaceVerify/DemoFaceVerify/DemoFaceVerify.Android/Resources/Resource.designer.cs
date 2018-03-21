@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("DemoFaceIdentify.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("DemoFaceVerify.Droid.Resource", IsApplication=true)]
 
-namespace DemoFaceIdentify.Droid
+namespace DemoFaceVerify.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace DemoFaceIdentify.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::DemoFaceIdentify.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::DemoFaceVerify.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

@@ -8,9 +8,9 @@ using Android.Widget;
 using Android.OS;
 using Plugin.Media;
 
-namespace DemoFaceIdentify.Droid
+namespace DemoFaceVerify.Droid
 {
-    [Activity(Label = "DemoFaceIdentify", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "DemoFaceVerify", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override async void OnCreate(Bundle bundle)

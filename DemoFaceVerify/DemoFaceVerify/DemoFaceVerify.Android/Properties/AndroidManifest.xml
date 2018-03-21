@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.DemoFaceIdentify">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.DemoFaceVerify">
 	<uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.CAMERA" />
-	<application android:label="DemoFaceIdentify.Android">
+	<application android:label="DemoFaceVerify.Android">
 	  <provider android:name="android.support.v4.content.FileProvider"
-	            android:authorities="com.companyname.DemoFaceIdentify.fileprovider"
+	            android:authorities="com.companyname.DemoFaceVerify.fileprovider"
 	            android:exported="false"
 	            android:grantUriPermissions="true">
 
 	    <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
 	               android:resource="@xml/file_paths"></meta-data>
-	  </provider>
+	  </provider> 
   </application>
 </manifest>

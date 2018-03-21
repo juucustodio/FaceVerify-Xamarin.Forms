@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoFaceVerify"
+             x:Class="DemoFaceVerify.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal" 
+                     HorizontalOptions="Center" 
+                     VerticalOptions="Center">
+            <Image x:Name="MinhaImagem1" Aspect="AspectFill" HeightRequest="200" 
+                   WidthRequest="400" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+        <Button Text="Tirar Foto 1" Clicked="TakePicture1" FontSize="20" />
+
+        <StackLayout Orientation="Horizontal" 
+                     HorizontalOptions="Center" 
+                     VerticalOptions="Center">
+            <Image x:Name="MinhaImagem2" Aspect="AspectFill" HeightRequest="200" 
+                   WidthRequest="400" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+        <Button Text="Tirar Foto 2" Clicked="TakePicture2" FontSize="20" />
+    </StackLayout>
+
+</ContentPage>

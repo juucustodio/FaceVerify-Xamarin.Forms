@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace DemoFaceIdentify.iOS
+namespace DemoFaceVerify.iOS
 {
     public class Application
     {
