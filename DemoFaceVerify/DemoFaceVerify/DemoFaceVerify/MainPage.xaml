@@ -7,7 +7,7 @@
     <StackLayout>
         <StackLayout Orientation="Horizontal" 
                      HorizontalOptions="Center" 
-                     VerticalOptions="Center">
+                     VerticalOptions="Center" BackgroundColor="DarkSlateGray">
             <Image x:Name="MinhaImagem1" Aspect="AspectFill" HeightRequest="200" 
                    WidthRequest="400" HorizontalOptions="CenterAndExpand" />
         </StackLayout>
@@ -15,11 +15,13 @@
 
         <StackLayout Orientation="Horizontal" 
                      HorizontalOptions="Center" 
-                     VerticalOptions="Center">
+                     VerticalOptions="Center" BackgroundColor="DarkSlateGray">
             <Image x:Name="MinhaImagem2" Aspect="AspectFill" HeightRequest="200" 
                    WidthRequest="400" HorizontalOptions="CenterAndExpand" />
         </StackLayout>
         <Button Text="Tirar Foto 2" Clicked="TakePicture2" FontSize="20" />
+
+        <Button Text="Verificar" Clicked="FaceVerify" BackgroundColor="Blue"/>
     </StackLayout>
 
 </ContentPage>
