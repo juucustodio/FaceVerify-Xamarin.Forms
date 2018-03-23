@@ -20,12 +20,11 @@ namespace DemoFaceVerify
 		{
 			InitializeComponent();
 
-		    _faceServiceClient = new FaceServiceClient("KEY",
-		        "URL");
+		    _faceServiceClient = new FaceServiceClient("KEY","URL");
 
 		    faceId1 = new Guid();
 		    faceId2 = new Guid();
-		    personId = new Guid("0291d516-cc1c-479a-bd14-bcafe6325c5e");
+		    personId = new Guid("PERSONID");
         }
 
 	    private async void TakePicture1(object sender, EventArgs e)
